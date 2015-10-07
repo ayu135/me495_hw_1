@@ -1,11 +1,9 @@
 #!/usr/bin/python
 import rospy
-from std_msgs.msg import String
 from numpy import *
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 import time
-import math
 from turtlesim.srv import TeleportAbsolute
 from std_srvs.srv import Empty
 #Inititiate ros node
